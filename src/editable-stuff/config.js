@@ -55,7 +55,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "itsdhairya", //i.e."johnDoe12Gh"
-  reposLength: 0,
+  reposLength: 8,
   specificRepos: ["Al-Personal-Assistant", "EasyApplyJobsBot ", "AI-Generator", "CHAT-GPT-WhatsappBot","Hand-Gesture-ROBOT-Arduino-" ],
 };
 
@@ -64,7 +64,7 @@ const leadership = {
   show: false,
   heading: "Leadership",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "I am a passionate and dedicated individual who is eager to make a positive impact in the world through the power of technology. With a degree in Computer Engineering and experience in various programming languages, I am well-equipped to tackle any challenge that comes my way. I am also a strong believer in giving back to the community, and I strive to do so through volunteering and contributing to open-source projects in my free time. Overall, I am committed to continuous learning and growth in both my personal and professional endeavors.",
   images: [
     { 
       img: require("../editable-stuff/picture.png"), 
