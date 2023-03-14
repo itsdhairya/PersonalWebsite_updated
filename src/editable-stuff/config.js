@@ -6,30 +6,18 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Dhairya",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Brahmbhatt",
+  message: " Empowering the Future with Innovative Technology Solutions.",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://github.com/itsdhairya",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/dhairya-brahmbhatt-3949011b4/",
     },
   ],
 };
@@ -51,11 +39,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/picture.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Welcome to my personal website! I am Dhairya Brahmbhatt, a skilled database administrator and administrative accountant with a passion for technology and data analysis.",
+  resume: "../editable-stuff/Resume-Dhairya-Brahmbhatt.pdf",
 };
 
 // PROJECTS SECTION
@@ -66,9 +54,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "itsdhairya", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ["Al-Personal-Assistant", "EasyApplyJobsBot ", "AI-Generator", "CHAT-GPT-WhatsappBot","Hand-Gesture-ROBOT-Arduino-" ],
 };
 
 // Leadership SECTION
@@ -79,12 +67,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/picture.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/picture.png"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -101,13 +89,13 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "SQL", value: 95 },
+    { name: "Data Structures", value: 90 },
+    { name: "C/C++", value: 70 },
+    { name: "JavaScript", value: 60 },
+    { name: "React", value: 60 },
+    { name: "HTML/CSS", value: 65 },
+    { name: "C#", value: 75 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -127,7 +115,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+  email: "business4dhairya@gmail.com",
 };
 
 const experiences = {
@@ -135,14 +123,24 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Database Administration',// Here Add Company Name
+      companylogo: require('../assets/img/daymak.jpg'),
+      date: 'Novemember 2022 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Administrative Assistant',
+      companylogo: require('../assets/img/daymak.jpg'),
+      date: 'April 2012 – November 2022',
+    },
+    {
+      role: 'Clinic Coordinator [Covid Clinic]',
+      companylogo: require('../assets/img/occumed.jpg'),
+      date: 'April 2012 – November 2022',
+    },
+    {
+      role: 'Vaccine Community Clinic Assistant',
+      companylogo: require('../assets/img/york.png'),
+      date: 'October 2021 – January 2022',
     },
   ]
 }
